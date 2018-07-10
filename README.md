@@ -22,4 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-How to Override the Rails Resources Routes for the Show Action
+Implement Permalinks
