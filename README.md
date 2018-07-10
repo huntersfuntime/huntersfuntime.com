@@ -22,4 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-Build the new and create functionality from scratch
+Build the ability to delete items in Rails
