@@ -6,10 +6,17 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+3.times do |topic|
+    Topic.create!(
+        title: "Tech #{topic}"
+    )
+end
+
 10.times do |blog|
   Blog.create!(
       title: "My Blog Post #{blog}",
-      body: "It was all a dream I use to read word up magazine, salt and peppa, heavy d up in the limousine"
+      body: "It was all a dream I use to read word up magazine, salt and peppa, heavy d up in the limousine",
+      topic_id: Topic.last.id
   )
 end
 
