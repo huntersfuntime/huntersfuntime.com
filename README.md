@@ -25,3 +25,4 @@ Things you may want to cover:
 # huntersfuntime.com
 # huntersfuntime.com
 
+view helpers in rails
